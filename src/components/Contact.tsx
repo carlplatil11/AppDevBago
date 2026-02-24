@@ -91,7 +91,7 @@ export default function Contact() {
           <div className="bg-[#0a192f] rounded-3xl p-8 md:p-12">
             <div className="mb-8">
               <h3 className="text-4xl font-bold text-white mb-4">Send Message</h3>
-              <p className="text-gray-400">Fill out the form below and I'll get back to you soon!</p>
+              <p className="text-gray-400">Fill out the form below and I&apos;ll get back to you soon!</p>
             </div>
             
             <form onSubmit={handleSubmit} className="space-y-6" action="https://formspree.io/f/xykdlzer" method="POST">

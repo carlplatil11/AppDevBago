@@ -82,7 +82,7 @@ export default function CurrentlyLearning() {
         
         <div className="text-center text-gray-400 italic">
           <span className="text-2xl">💡</span> This section demonstrates a{' '}
-          <span className="font-bold text-white">growth mindset</span> — showing recruiters that I'm actively investing in my skills and staying ahead of industry trends.
+          <span className="font-bold text-white">growth mindset</span> — showing recruiters that I&apos;m actively investing in my skills and staying ahead of industry trends.
         </div>
       </div>
     </section>

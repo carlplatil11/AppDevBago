@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Hero() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -111,10 +112,12 @@ export default function Hero() {
 
                 {/* Profile Rectangle */}
                 <div className="relative w-72 h-80 md:w-80 md:h-96 rounded-2xl overflow-hidden border-8 border-white shadow-2xl z-10 transform hover:scale-105 transition-transform duration-300">
-                  <img
+                  <Image
                     src="/profile.jpg"
                     alt="Carl Vincent G. Platil"
-                    className="object-cover w-full h-full"
+                    fill
+                    className="object-cover"
+                    priority
                   />
                   {/* Overlay gradient */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
@@ -150,7 +153,7 @@ export default function Hero() {
                 Send Message
               </h3>
               <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                Fill out the form below and I'll get back to you soon!
+                Fill out the form below and I&apos;ll get back to you soon!
               </p>
             </div>
 
