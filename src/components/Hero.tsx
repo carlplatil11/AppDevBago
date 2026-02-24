@@ -92,7 +92,7 @@ export default function Hero() {
                   <span className="text-outline">& Front-End Developer</span>
                 </h1>
 
-                <p className="text-gray-600 text-lg">I’m a passionate UI/UX designer with a deep focus on creating intuitive, user-centered digital experiences. From wireframing and prototyping to high-fidelity UI design, I aim to blend form and function to deliver visually stunning, easy-to-use interfaces.</p>
+                <p className="text-gray-600 text-lg">I&apos;m a passionate UI/UX designer with a deep focus on creating intuitive, user-centered digital experiences. From wireframing and prototyping to high-fidelity UI design, I aim to blend form and function to deliver visually stunning, easy-to-use interfaces.</p>
 
 
                 {/* Decorative stars */}

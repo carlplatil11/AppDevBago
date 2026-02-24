@@ -58,7 +58,7 @@ export default function Contact() {
             </p>
             
             <div className="pt-8">
-              <h3 className="text-2xl font-bold text-white mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-bold text-white mb-6">Let&apos;s Connect</h3>
               <div className="flex gap-6">
                 <a
                   href="mailto:carl.platil@urios.edu.ph"
